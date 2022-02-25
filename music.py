@@ -239,7 +239,7 @@ class music(commands.Cog):
     )        
 
     embed.add_field(name="\n__**Purpose:**__", value="Play music in Discord VCs.", inline = False)    
-    mbed.add_field(name="Open Source Code", value="[Here](https://github.com/Tarun1877220/Discord-Schedule-Bot)")
+    mbed.add_field(name="Open Source Code", value="[Here](https://github.com/Tarun1877220/Discord-Music-Bot)")
     embed.add_field(name="\n__**Summoning The Bot:**__", value=f"-Use the command - to summon the bot\n -default prefix is - and cannot be changed as of now*\n\n", inline = False)    
 
     embed.add_field(name="__**Commands:**__", value="\n > -play [insert song name] - plays a song selected(not used for queuing) \n > -join - summons bot to join channel \n > -die/leave/disconnect - removes bot from channel \n > -pause/stop - pauses music \n > -play/resume - resumes the current song \n > -queue [song name] - adds song to queue or displays queue if no parameteres are given \n > -clear - clears the queue \n > -skip - skips over song current song to next one in queue \n > remove [num] - removes a song from queue \n > -removeRange[int x, int y] - removes a range of songs(not by index)", inline = False)
